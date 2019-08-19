@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="/icon.png">
+    <title>{{pageTitle}} ✨ CH2C</title>
+    <style>
+        @font-face {
+            font-family: 'Santana-Black';
+            font-display: swap;
+            src: local('Santana-Black'), url('/Santana-Black.woff2') format('woff2');
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+            background: #ebebeb;
+            font-family: 'Santana-Black', sans-serif;
+        }
+
+        h1 {
+            font-size: 10vw;
+            margin: auto;
+            text-transform: uppercase;
+            color: #0a3858;
+            letter-spacing: .025em;
+        }
+    </style>
+</head>
+<body>
+<h1>{{pageContent}}</h1>
+</body>
+</html>

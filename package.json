@@ -1,0 +1,24 @@
+{
+  "name": "ch2c-startopgaven-2019",
+  "version": "1.0.0",
+  "description": "Startopgaven til CH2C 2019",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Znegl/ch2c-startopgaven-2019.git"
+  },
+  "author": "Thomas Grinderslev <thomas@fdfnivaa.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Znegl/ch2c-startopgaven-2019/issues"
+  },
+  "homepage": "https://github.com/Znegl/ch2c-startopgaven-2019#readme",
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "now": "^16.1.1"
+  }
+}

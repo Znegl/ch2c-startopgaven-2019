@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="/icon.png">
+  <title>404 — Siden blev ikke fundet ✨ CH2C</title>
+  <style>
+    @font-face {
+      font-family: 'Santana-Black';
+      font-display: swap;
+      src: local('Santana-Black'), url('/Santana-Black.woff2') format('woff2');
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      background: #ebebeb;
+      font-family: 'Santana-Black', sans-serif;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 2em;
+    }
+
+    main {
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2em;
+      text-transform: uppercase;
+      color: #0a3858;
+      letter-spacing: .025em;
+    }
+
+    strong {
+      display: block;
+      font-size: 1.5em;
+    }
+
+    strong::after {
+      content: '—';
+      display: block;
+      font-size: 0.5em;
+      font-weight: lighter;
+      margin-bottom: 0.5em;
+    }
+
+    .error-illustration {
+      display: block;
+      width: 18em;
+      max-width: 80%;
+      margin: 3em auto 0;
+    }
+
+  </style>
+</head>
+<body>
+<main>
+  <h1><strong>404</strong> Siden blev ikke fundet</h1>
+  <img
+    src="/images/error.png"
+    srcset="/images/error@2x.png 2x"
+    alt="Sille græder"
+    class="error-illustration"
+  />
+</main>
+</body>
+</html>
+
