@@ -26,6 +26,8 @@
       text-align: center;
       box-sizing: border-box;
       padding: 2em;
+      text-transform: uppercase;
+      color: #0a3858;
     }
 
     main {
@@ -34,8 +36,6 @@
 
     h1 {
       font-size: 2em;
-      text-transform: uppercase;
-      color: #0a3858;
       letter-spacing: .025em;
     }
 
@@ -59,11 +59,27 @@
       margin: 3em auto 0;
     }
 
+    button {
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: inherit;
+      text-transform: inherit;
+      height: 2em;
+      line-height: 2.075em;
+      padding: 0 .75em;
+      text-align: center;
+      vertical-align: middle;
+      color: #ebebeb;
+      background: #0a3858;
+      border: none;
+      margin: 1em;
+    }
   </style>
 </head>
 <body>
 <main>
   <h1><strong>404</strong> Siden blev ikke fundet</h1>
+  <button onclick="history.back()">👈 Prøv igen</button>
   <img
     src="/images/error.png"
     srcset="/images/error@2x.png 2x"

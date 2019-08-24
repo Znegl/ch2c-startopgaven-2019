@@ -1,40 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/png" href="/icon.png">
-    <title>{{pageTitle}} ✨ CH2C</title>
-    <style>
-        @font-face {
-            font-family: 'Santana-Black';
-            font-display: swap;
-            src: local('Santana-Black'), url('/Santana-Black.woff2') format('woff2');
-        }
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="/icon.png">
+  <title>{{pageTitle}} ✨ CH2C</title>
+  <style>
+    @font-face {
+      font-family: 'Santana-Black';
+      font-display: swap;
+      src: local('Santana-Black'), url('/Santana-Black.woff2') format('woff2');
+    }
 
-        * {
-            padding: 0;
-            margin: 0;
-        }
+    * {
+      padding: 0;
+      margin: 0;
+    }
 
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            min-height: 100vh;
-            background: #ebebeb;
-            font-family: 'Santana-Black', sans-serif;
-        }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      background: #ebebeb;
+      font-family: 'Santana-Black', sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+      color: #0a3858;
+    }
 
-        h1 {
-            font-size: 10vw;
-            margin: auto;
-            text-transform: uppercase;
-            color: #0a3858;
-            letter-spacing: .025em;
-        }
-    </style>
+    form {
+      margin: auto;
+      font-size: 5vw;
+      line-height: 2em;
+    }
+
+    h1 {
+      font-size: 10vw;
+      letter-spacing: .025em;
+    }
+
+    input, button {
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: inherit;
+      text-transform: inherit;
+      height: 2em;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    input {
+      width: 10em;
+      background: white;
+      border: .125em solid #0a3858;
+    }
+
+    ::placeholder {
+      color: #ebebeb;
+    }
+
+    button {
+      color: #ebebeb;
+      background: #0a3858;
+      border: none;
+        padding: 0 .75em;
+    }
+  </style>
 </head>
 <body>
-<h1>{{pageContent}}</h1>
+<form autocomplete="off">
+  <h1>{{pageContent}}</h1>
+  <label for="codeInput">👇</label>
+  <br>
+  <input type="text" name="code" id="codeInput" placeholder="Næste kode"><button>👍</button>
+</form>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault()
+    location.pathname = '/' + event.target.code.value.toLowerCase()
+  })
+</script>
 </body>
 </html>
