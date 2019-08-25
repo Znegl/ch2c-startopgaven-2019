@@ -65,7 +65,17 @@
       color: #ebebeb;
       background: #0a3858;
       border: none;
-        padding: 0 .75em;
+      padding: 0 .75em;
+    }
+
+    @media (max-width: 25rem) {
+      h1 {
+        font-size: 15vw;
+      }
+
+      form {
+        font-size: 5vw;
+      }
     }
   </style>
 </head>
@@ -74,7 +84,8 @@
   <h1>{{pageContent}}</h1>
   <label for="codeInput">👇</label>
   <br>
-  <input type="text" name="code" id="codeInput" placeholder="Næste kode"><button>👍</button>
+  <input type="text" name="code" id="codeInput" placeholder="Næste kode">
+  <button>👍</button>
 </form>
 
 <script>
