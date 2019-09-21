@@ -36,6 +36,12 @@ h1 {
     line-height: 1.1em;
 }
 
+span.small {
+    display: inline-block;
+    font-size: .75em;
+    line-height: 1.1em;
+}
+
 input, button {
     box-sizing: border-box;
     font-family: inherit;

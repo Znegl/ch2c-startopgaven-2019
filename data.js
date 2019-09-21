@@ -4,8 +4,8 @@ module.exports = {
     '...': 'pilt',
     'væbner': 'trop',
     'klan': 'fråseri',
-    'vrede': 'du må ikke bryde ægteskabet',
+    'vrede': '<span class="small">du må ikke bryde ægteskabet</span>',
     'du må ikke stjæle': 'uranus',
     'neptun': '✋',
-    'last': '<span class="hurra">Tillykke, I har løst startopgaven!<br><br>Vi starter på Skagen Havn 🚢</span><style>.hurra {display: inline-block; font-size: .75em; line-height: 1.1em;} form > br, input, label, button {display: none;}</style>'
+    'last': '<span class="small">Tillykke, I har løst startopgaven!<br><br>Vi starter på Skagen Havn 🚢</span><style>form > br, input, label, button {display: none;}</style>'
 }
