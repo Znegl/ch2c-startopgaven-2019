@@ -2,7 +2,6 @@
   "name": "ch2c-startopgaven-2019",
   "version": "1.0.0",
   "description": "Startopgaven til CH2C 2019",
-  "main": "index.js",
   "scripts": {
     "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
