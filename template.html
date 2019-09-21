@@ -21,6 +21,10 @@
     event.preventDefault()
     location.pathname = '/' + event.target.code.value.toLowerCase()
   })
+
+  document.body.addEventListener('touchstart', function() {
+    document.body.classList.add('has-touch-keyboard')
+  })
 </script>
 </body>
 </html>

@@ -23,6 +23,10 @@ body {
     padding: 2em;
 }
 
+body.has-touch-keyboard {
+    min-height: 50vh;
+}
+
 form {
     margin: auto;
     font-size: 3.5vw;
