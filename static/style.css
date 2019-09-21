@@ -21,6 +21,7 @@ body {
     color: #0a3858;
     background: #ebebeb;
     padding: 2em;
+    transition: min-height .5s ease-in-out;
 }
 
 body.has-touch-keyboard {
