@@ -6,13 +6,9 @@ const buildDir = 'public'
 
 const template = fs.readFileSync('template.html').toString()
 
-console.log('template', template)
-
 fsExtra.ensureDirSync(buildDir)
 fsExtra.emptyDirSync(buildDir)
 fsExtra.copySync('static', buildDir)
-
-console.log('data', data)
 
 const pages = Object.entries(data)
 
