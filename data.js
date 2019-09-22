@@ -5,7 +5,7 @@ module.exports = {
     'væbner': 'trop',
     'klan': 'fråseri',
     'vrede': 'saturn',
-    'uranus': 'Morten Skrubbeltrang',
+    'uranus': '<span class="small">Morten Skrubbeltrang</span>',
     'Rasmus Agergaard Pedersen': '<span class="small">Du må ikke vidne falsk mod din næste</span>',
     'Du må ikke begære din næstes hus': 'theta',
     'iota': 'oktober',
