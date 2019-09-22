@@ -13,7 +13,7 @@ fsExtra.copySync('static', buildDir)
 const pages = Object.entries(data)
 
 const buildPromises = pages.map(([pageName, pageContent]) => {
-  const fileDir = `${buildDir}/${pageName.toLowerCase()}`
+  const fileDir = `${buildDir}/${pageName.toLowerCase().trim()}`
   const filePath = `${fileDir}/index.html`
 
   return fsPromises.mkdir(fileDir).then(() => {

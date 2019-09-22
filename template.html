@@ -18,7 +18,11 @@
 <script>
   document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault()
-    location.pathname = '/' + event.target.code.value.toLowerCase()
+    var value = event.target.code.value.toLowerCase().trim()
+
+    if (value.length > 0) {
+      location.pathname = '/' + value
+    }
   })
 
   document.body.addEventListener('touchstart', function() {
