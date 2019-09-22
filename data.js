@@ -14,7 +14,7 @@ module.exports = {
     'AquaHoldet': 'Aluminium',
     'Silicium': 'Livet i havet',
     'Livet på land': 'O',
-    'P': 'Otto Joachim Moltke',
+    'P': '<span class="small">Otto Joachim Moltke</span>',
     'Poul Christian Stemann': 'Tocantins–Araguaia',
     'Volga': 'Køge',
     'Holstebro': '.---- ----.',
