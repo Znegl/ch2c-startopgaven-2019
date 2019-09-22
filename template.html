@@ -30,14 +30,6 @@
   document.body.addEventListener('touchstart', function() {
     document.body.classList.add('has-touch-keyboard')
   })
-
-  // Prevent scrolling on mobile if the body isn't high enough that it makes sense
-  window.addEventListener('scroll', function(event) {
-    if (document.body.offsetHeight <= window.innerHeight) {
-      event.preventDefault();
-      window.scrollY = 0;
-    }
-  })
 </script>
 </body>
 </html>
