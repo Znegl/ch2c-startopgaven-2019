@@ -18,6 +18,6 @@ module.exports = {
     'Poul Christian Stemann': 'Tocantins–Araguaia',
     'Volga': 'Køge',
     'Holstebro': '.---- ----.',
-    '.---- -----': 'Raticate',
+    '..--- -----': 'Raticate',
     'Spearow': '<span class="small">Tillykke, I har løst startopgaven!<br><br>Vi starter på Skagen Havn 🚢</span><style>form > br, input, label, button {display: none;}</style>'
 }
