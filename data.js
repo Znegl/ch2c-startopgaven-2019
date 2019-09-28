@@ -19,5 +19,5 @@ module.exports = {
     'Volga': 'Køge',
     'Holstebro': '.---- ----.',
     '..--- -----': 'Raticate',
-    'Spearow': '<span class="small">Tillykke, I har løst startopgaven!<br><br>Vi starter på Skagen Havn 🚢</span><style>form > br, input, label, button {display: none;}</style>'
+    'Spearow': '<span class="small">Tillykke, I har løst startopgaven!<br><br><a href="https://docs.google.com/forms/d/e/1FAIpQLScOA9AyF_hgRmiKTfKnpDu__YuRzk_c8pU-bMl_AdVGWvQWaA/formResponse">Find ud af hvor vi starter</a></span><style>form > br, input, label, button {display: none;}</style>'
 }
