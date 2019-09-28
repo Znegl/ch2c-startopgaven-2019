@@ -3,7 +3,7 @@ module.exports = {
     '2': 'to',
     'tre': 'pilt',
     'væbner': 'trop',
-    'klan': 'fråseri',
+    'senior': 'fråseri',
     'vrede': 'saturn',
     'uranus': '<span class="small">Morten Skrubbeltrang</span>',
     'Rasmus Agergaard Pedersen': '<span class="small">Du må ikke vidne falsk mod din næste</span>',
