@@ -7,20 +7,27 @@
     body {
       margin: 0;
       padding: 0;
+    }
+    .wrapper {
+      position: relative;
       width: 100vw;
       height: 100vh;
       overflow: hidden;
     }
     video {
       position: absolute;
-      width: 100%;
-      height: auto;
       top: 50%;
-      transform: translateY(-50%);
+      left: 50%;
+      min-width: 100vw;
+      min-height: 100vh;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
-<video src="/hvis-det-her-nu-var-et-skattekort-ville-den-røde-prik-have-været-et-kryds/1552204c6cfd2ea1fa392b6af483d289.mp4" autoplay muted></video>
+<div class="wrapper">
+  <video src="/hvis-det-her-nu-var-et-skattekort-ville-den-røde-prik-have-været-et-kryds/1552204c6cfd2ea1fa392b6af483d289.mp4" autoplay muted></video>
+</div>
 </body>
 </html>
