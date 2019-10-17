@@ -11,7 +11,7 @@ module.exports = {
     'iota': 'oktober',
     'november': 'knægt',
     'dame': 'Thea Gaming',
-    'กินไปไทยหรั่ง': 'Aluminium',
+    'AquaHoldet': 'Aluminium',
     'Silicium': 'Livet i havet',
     'Livet på land': 'O',
     'P': '<span class="small">Otto Joachim Moltke</span>',
